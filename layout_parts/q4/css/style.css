@@ -1,16 +1,25 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.display_table {
+.q4_contents {
+  background-color: #ECF1F2;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.q4_contents_bar {
   display: table;
   width: 100%;
-  text-align: center;
-  margin: 20px auto;
+  margin-top: 20px;
 }
 
-.table_cell {
+.q4_contents_bar:first-child {
+  margin-top: 0;
+}
+
+.q4_contents_cell {
   display: table-cell;
-  padding: 20px;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .pink {

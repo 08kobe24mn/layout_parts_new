@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6-1_common {
+.q6-1_text {
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0px;
@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.display {
+.text_align .q6-1_text {
   display: inline-block;
 }
 
@@ -23,20 +23,23 @@
 }
 
 /* q6-2 table */
+.q6-2_text {
+  padding: 10px;
+  background-color: #fff;
+}
+
 .display_table {
   display: table;
+}
+
+.table-cell {
+  display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.display_teble-cell {
-  display: table-cell;
-}
-
 .text_table {
   display: inline-block;
-  background-color: #fff;
-  padding: 10px;
 }
 
 /* q6-2 flex */
@@ -44,11 +47,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.text_flex {
-  background-color: #fff;
-  padding: 10px;
 }
 
 /*q6-2 position固定 */
@@ -70,7 +68,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 /* 回答はここに書いてね */
