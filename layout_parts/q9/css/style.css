@@ -19,23 +19,22 @@
 .q9_contents::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 30px;
 }
 
 .q9_contents::before {
+  left: 30px;
   bottom: -25px;
   border-style: solid;
-  border-color: #222 transparent transparent transparent;
-  border-width: 25px 25px 0 25px;
+  border-color: #222 transparent transparent;
+  border-width: 25px 25px 0;
 }
 
 .q9_contents::after {
   bottom: -18px;
   left: 35px;
   border-style: solid;
-  border-color: #fff transparent transparent transparent;
-  border-width: 20px 20px 0 20px;
+  border-color: #fff transparent transparent;
+  border-width: 20px 20px 0;
   z-index: 10;
 }
 /* 回答はここに書いてね */
